@@ -1,0 +1,7 @@
+{
+  "user": "CS779_USER",
+  "password_env": "CS779_ORACLE_PASSWORD",
+  "dsn": "localhost:1521/FREEPDB1",
+  "thick_mode_lib_dir": "",
+  "batch_size": 1000
+}

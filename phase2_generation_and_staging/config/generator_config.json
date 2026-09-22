@@ -1,0 +1,66 @@
+{
+  "schema_version": "2.0",
+  "seed": 7792026,
+  "scale": {
+    "ranked_players": 2500,
+    "ranking_error_fixture_players": 60,
+    "completed_matches_per_season": 1200,
+    "scheduled_error_fixture_matches_per_season": 8,
+    "scd2_player_updates": 25,
+    "draw_probability": 0.05
+  },
+  "domains": {
+    "season_current_rating_min": 0,
+    "season_current_rating_max": 5000,
+    "rating_change_min": -100,
+    "rating_change_max": 100,
+    "account_level_min": 0,
+    "account_level_max": 9999,
+    "account_statuses": ["ACTIVE", "SUSPENDED", "BANNED"],
+    "match_statuses": ["SCHEDULED", "IN_PROGRESS", "COMPLETED", "CANCELLED"],
+    "team_codes": ["TEAM_A", "TEAM_B"],
+    "player_results": ["WIN", "LOSS", "DRAW"],
+    "rank_tiers": ["BRONZE", "SILVER", "GOLD", "PLATINUM", "DIAMOND"]
+  },
+  "seasons": [
+    {
+      "season_id": 1,
+      "season_name": "2024 Season 1",
+      "start_date": "2024-01-01",
+      "end_date": "2024-04-30",
+      "season_status": "COMPLETED"
+    },
+    {
+      "season_id": 2,
+      "season_name": "2024 Season 2",
+      "start_date": "2024-05-15",
+      "end_date": "2024-09-15",
+      "season_status": "COMPLETED"
+    },
+    {
+      "season_id": 3,
+      "season_name": "2024-25 Season 3",
+      "start_date": "2024-10-01",
+      "end_date": "2025-02-15",
+      "season_status": "COMPLETED"
+    }
+  ],
+  "roles": [
+    {"role_id": 1, "role_name": "TANK", "role_description": "Absorbs damage and initiates team fights"},
+    {"role_id": 2, "role_name": "DAMAGE", "role_description": "Primary damage dealer"},
+    {"role_id": 3, "role_name": "SUPPORT", "role_description": "Heals, shields, or enables teammates"},
+    {"role_id": 4, "role_name": "ASSASSIN", "role_description": "High burst damage and flanking specialist"},
+    {"role_id": 5, "role_name": "CONTROLLER", "role_description": "Provides crowd control and zoning"}
+  ],
+  "characters": [
+    {"character_id": 1, "character_name": "ATLAS"},
+    {"character_id": 2, "character_name": "SERAPH"},
+    {"character_id": 3, "character_name": "PYRO"},
+    {"character_id": 4, "character_name": "VEX"},
+    {"character_id": 5, "character_name": "NYX"}
+  ],
+  "output": {
+    "initial_run_key_prefix": "P2_INITIAL",
+    "scd2_run_key_prefix": "P2_SCD2"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "3.0",
+  "initial_load_batch_id": 1,
+  "scd2_load_batch_id": 2,
+  "phase2_generation_id": "892b37f7c23f479b",
+  "manifest_directory": "data/phase2_manifests",
+  "oracle_batch_size": 1000,
+  "rating_domains": {
+    "season_current_rating_min": "0.00",
+    "season_current_rating_max": "5000.00",
+    "rating_change_min": "-100.00",
+    "rating_change_max": "100.00"
+  },
+  "rank_tier_bands": [
+    {"name": "BRONZE", "minimum": "0.00", "maximum_exclusive": "1200.00"},
+    {"name": "SILVER", "minimum": "1200.00", "maximum_exclusive": "1600.00"},
+    {"name": "GOLD", "minimum": "1600.00", "maximum_exclusive": "2000.00"},
+    {"name": "PLATINUM", "minimum": "2000.00", "maximum_exclusive": "2400.00"},
+    {"name": "DIAMOND", "minimum": "2400.00", "maximum_inclusive": "5000.00"}
+  ]
+}

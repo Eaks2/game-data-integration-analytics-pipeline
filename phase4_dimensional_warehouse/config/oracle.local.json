@@ -1,0 +1,6 @@
+{
+  "user": "CS779PROJ",
+  "password_env": "CS779_ORACLE_PASSWORD",
+  "dsn": "localhost:1521/xepdb1",
+  "thick_mode_lib_dir": ""
+}

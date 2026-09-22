@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "initial_load_batch_id": 1,
+  "scd2_load_batch_id": 2,
+  "authoritative_dimensional_ddl_sha256": "c5d06c9109d22778ad18520a3cc3209bf0e82a2d808edeb55b98b3cc7aaa698d",
+  "expected_phase3": {
+    "total_staging_rows": 50007,
+    "initial_staged_rows": 49982,
+    "initial_valid_rows": 49684,
+    "valid_player_updates": 25,
+    "rejected_staging_rows": 298,
+    "rejection_reason_rows": 307,
+    "players": 2560,
+    "matches": 3624,
+    "participation": 36000,
+    "results": 36000,
+    "rankings": 7500,
+    "rating_history": 34460
+  },
+  "expected_phase4": {
+    "dim_player_rows": 2585,
+    "single_version_players": 2535,
+    "scd2_updated_players": 25,
+    "dim_role_rows": 5,
+    "dim_character_rows": 5,
+    "dim_season_rows": 3,
+    "dim_rank_tier_rows": 5,
+    "match_participation_fact_rows": 36000,
+    "player_season_snapshot_fact_rows": 7500
+  },
+  "day_part_definition": {
+    "NIGHT": "00:00:00-05:59:59",
+    "MORNING": "06:00:00-11:59:59",
+    "AFTERNOON": "12:00:00-17:59:59",
+    "EVENING": "18:00:00-23:59:59"
+  }
+}
